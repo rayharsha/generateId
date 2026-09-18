@@ -7,13 +7,13 @@ A lightweight and configurable unique ID generator for Node.js.
 ## Installation
 
 ```bash
-npm install generateid
+npm install @harsha-ray/generateid
 ```
 
 ## Usage
 
 ```js
-import { GenerateId } from "generateid";
+import { GenerateId } from "@harsha-ray/generateid";
 
 const generator = new GenerateId();
 
@@ -33,7 +33,7 @@ aK8xP2qL
 You can configure the generated ID length, character set, and maximum number of generation attempts.
 
 ```js
-import { GenerateId } from "generateid";
+import { GenerateId } from "@harsha-ray/generateid";
 
 const generator = new GenerateId({
     length: 12,
@@ -58,7 +58,7 @@ The callback receives each generated candidate ID and must return:
 For example, an application can check whether an ID already exists before accepting it:
 
 ```js
-import { GenerateId } from "generateid";
+import { GenerateId } from "@harsha-ray/generateid";
 
 const database = [
     "cb",
