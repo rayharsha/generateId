@@ -1,0 +1,31 @@
+{
+  "name": "generateid",
+  "version": "1.0.0",
+  "description": "A lightweight and configurable unique ID generator for Node.js.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src",
+  "README.md",
+   "LICENSE"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "unique-id",
+    "id-generator",
+    "unique-id-generator",
+    "nodejs",
+    "random-id",
+    "short-id"
+  ],
+  "author": "Harsha Ray",
+  "license": "MIT",
+  "type": "module"
+}
